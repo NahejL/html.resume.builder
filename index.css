@@ -1,9 +1,9 @@
 html {
-    --size-0: 1in;
-    --size-1:.5in;
-    --size-2:.25in;
-    --size-3:.125in;
-    --size-4:.0625in;
+    --size-0: 8em;
+    --size-1: 4em;
+    --size-2: 2em;
+    --size-3: 1em;
+    --size-4:.5em;
 
     --color-0: #000;
     --color-1: #FFF;
@@ -11,7 +11,7 @@ html {
 
     --familly-0: 'Roboto', sans-serif;
 
-
+    background-color: var(--color-0);
 }
 
 body{
@@ -19,28 +19,12 @@ body{
     flex-flow: column nowrap;
 
     padding: var(--size-0);
+    width: 8.5in;
+    height: 11in;
 
     font-family: var(--familly-0);
     font-size: var(--size-3);
 
     background-color: var(--color-1);
     color: var(--color-0);
-}
-
-resume-title{
-    font-size: var(--size-1);
-}
-
-overview-header{
-    padding-top: var(--size-3);
-    font-size: var(--size-2);
-}
-
-overview-qualification{
-    margin: var(--size-3);
-}
-
-section-header{
-    padding-top: var(--size-3);
-    font-size: var(--size-2);
 }

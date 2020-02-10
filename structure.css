@@ -1,21 +1,70 @@
-a-a{
+group{
+    display: contents;
+}
+
+/*Font Size*/
+f-0{
+    font-size: var(--size-0);
+}
+f-1{
+    font-size: var(--size-1);
+}
+f-2{
+    font-size: var(--size-2);
+}
+f-3{
+    font-size: var(--size-3);
+}
+f-4{
+    font-size: var(--size-4);
+}
+
+
+/*Layout flex*/
+r-n{
     display: flex;
     flex-flow: row nowrap;
 }
-a-b{
+c-n{
     display: flex;
     flex-flow: column nowrap;
 }
-a-c{
-    display: flex;
-    flex-flow: column nowrap;
-}
-a-d{
-    width: var(--size-3);
-}
-
-b-a{
+r-w{
     display: flex;
     flex-flow: row wrap;
 
+}
+
+/*Negative height*/
+h-0{
+    height: var(--size-0);
+}
+h-1{
+    height: var(--size-1);
+}
+h-2{
+    height: var(--size-2);
+}
+h-3{
+    height: var(--size-3);
+}
+h-4{
+    height: var(--size-4);
+}
+
+/*Negative width*/
+w-0{
+    width: var(--size-0);
+}
+w-1{
+    width: var(--size-1);
+}
+w-2{
+    width: var(--size-2);
+}
+w-3{
+    width: var(--size-3);
+}
+w-4{
+    width: var(--size-4);
 }
