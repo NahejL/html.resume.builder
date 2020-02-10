@@ -1,0 +1,21 @@
+a-a{
+    display: flex;
+    flex-flow: row nowrap;
+}
+a-b{
+    display: flex;
+    flex-flow: column nowrap;
+}
+a-c{
+    display: flex;
+    flex-flow: column nowrap;
+}
+a-d{
+    width: var(--size-3);
+}
+
+b-a{
+    display: flex;
+    flex-flow: row wrap;
+
+}

@@ -1,0 +1,46 @@
+html {
+    --size-0: 1in;
+    --size-1:.5in;
+    --size-2:.25in;
+    --size-3:.125in;
+    --size-4:.0625in;
+
+    --color-0: #000;
+    --color-1: #FFF;
+    --color-2: #123;
+
+    --familly-0: 'Roboto', sans-serif;
+
+
+}
+
+body{
+    display: flex;
+    flex-flow: column nowrap;
+
+    padding: var(--size-0);
+
+    font-family: var(--familly-0);
+    font-size: var(--size-3);
+
+    background-color: var(--color-1);
+    color: var(--color-0);
+}
+
+resume-title{
+    font-size: var(--size-1);
+}
+
+overview-header{
+    padding-top: var(--size-3);
+    font-size: var(--size-2);
+}
+
+overview-qualification{
+    margin: var(--size-3);
+}
+
+section-header{
+    padding-top: var(--size-3);
+    font-size: var(--size-2);
+}
