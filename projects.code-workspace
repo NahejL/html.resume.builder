@@ -1,0 +1,17 @@
+{
+    "folders" : [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        
+    },
+    "extensions": {
+
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    }
+}

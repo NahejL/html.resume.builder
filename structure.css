@@ -2,6 +2,73 @@ group{
     display: contents;
 }
 
+negatif{
+    color: var(--color-1);
+    background: var(--color-2);
+    --color-main:  var(--color-1);
+}
+
+.f5{
+    flex-grow: 5;
+}
+.f3{
+    flex-grow: 3;
+}
+
+/*Font*/
+i{
+    white-space: nowrap;
+}
+b{
+    font-weight: 900;
+}
+c-2{
+    color: var(--color-2);
+}
+
+/*Grid*/
+g-0{
+    display: grid;
+    grid-template-columns: min-content min-content;
+    grid-auto-rows: min-content;
+    gap: 0 var(--size-3);
+}
+g-1{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: auto;
+    gap: 0 var(--size-3);
+}
+
+/*Lines*/
+v-l{
+    width: 0;
+    overflow-x: visible;
+}
+v-l::before{
+    content: '';
+    display: block;
+    width: calc(var(--size-4) / 4);
+    height: 100%;
+    background: var(--color-main);
+    position: relative;
+    left: calc(var(--size-4) / -8)
+}
+h-l{
+    height: 0;
+    overflow-y: visible;
+}
+h-l::before{
+    content: '';
+    display: block;
+    height: calc(var(--size-4) / 4);
+    width: 100%;
+    background: var(--color-main);
+    position: relative;
+    top: calc(var(--size-4) / -8)
+}
+
+
 /*Font Size*/
 f-0{
     font-size: var(--size-0);
@@ -32,7 +99,6 @@ c-n{
 r-w{
     display: flex;
     flex-flow: row wrap;
-
 }
 
 /*Negative height*/
